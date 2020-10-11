@@ -1,0 +1,121 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin : 0px;
+	padding : 0px;
+	border : none;
+}
+
+body
+{
+	text-align : left;
+	font : Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	color : #061C37;
+}
+
+/* Định dạng phần Header */
+header
+{
+	width:1200px;
+	margin:0px auto;
+}
+
+div #logo
+{
+	float:left;
+	margin-top:105px;
+}
+
+div #dn
+{
+	float:right;
+	margin-top : 105px;
+}
+
+div#dn a
+{
+	font-family:verdana, Geneva, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#000;
+}
+
+header div#dn a:hover
+{
+	color:#900;
+}
+
+/* Định dạng phần nav */
+nav
+{
+	clear:both;
+	background-color:#CC00FF;
+	height:45px;
+}
+nav div#subnav
+{
+	width:1200px;
+	margin:0px auto;
+}
+nav ul
+{
+	list-style:none;
+	margin-left:50px;
+}
+nav ul li
+{
+	float:left;
+	padding:11px 15px;
+}
+nav ul li a
+{
+	color:#206AB5;
+	font-size:16px;
+	font-size:16px;
+	font-family:Arial;
+	text-decoration:none;
+	font-weight:bold;
+}
+nav ul li:hover a
+{
+	boder-bottom:5px solid #206AB5;
+}
+
+div #search
+{
+	float:right;
+	background-color:white;
+	padding-left:10px;
+	margin-top:5px;
+	margin-right:5px;
+	height:34px;
+	width:380px;
+	border-radius:5px;
+	border:0.5px solid #CED2DD;
+}
+div #search input[type=text]
+{
+	float:left;
+	height:29px;
+	width:250px;
+	font-size:14px;
+	border: none;
+}
+div #search input[type=submit]
+{
+	float:right;
+	height:100%;
+	width:80px;
+	background:#F7F2E7;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-left:2px solid #CED2DD;
+	font-size:14px;
+}
+div #search input[type=submit]:hover
+{
+	cursor:pointer;
+}
+
